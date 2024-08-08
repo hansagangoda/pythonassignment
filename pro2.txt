@@ -1,0 +1,6 @@
+#sum of the first natural number
+natural_number=10
+sum=0
+for i in range(natural_number,-1,-1):
+  sum=sum+i
+print("the total sun of",natural_number,"natural_number is:",sum)
