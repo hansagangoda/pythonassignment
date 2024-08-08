@@ -1,0 +1,14 @@
+#5 .write a program to find out if the two blood group match
+
+bg1=input("Enter first bool group 1:")
+bg2=input("Enter second bool group 2:")
+if bg1=='A+' or bg1=='A-' or bg1=='B+' or bg1=='B-'or bg1=='AB+' or bg1=='AB-'or bg1=='o+' or bg1=='o-':
+   if bg1==bg2:
+       
+        print("matching bool group")
+   else:
+       print("not matching  bool group")
+else:
+
+       print("your enter bool group")
+
